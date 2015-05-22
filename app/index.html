@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <!-- start: CSS -->
+    <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/css/style.css" rel="stylesheet">
+    <!-- <link href="styles/css/retina.min.css" rel="stylesheet">  -->
+    <!-- end: CSS -->
+    <link rel="stylesheet" href="app_components/kendo-ui/styles/kendo.common-bootstrap.min.css"/>
+    <link rel="stylesheet" href="app_components/kendo-ui/styles/kendo.silver.min.css"/>
+    <link rel="stylesheet" href="app_components/kendo-ui/styles/kendo.bootstrap.mobile.min.css"/>
+
+    <link rel="stylesheet" href="app_components/kendo-ui/styles/kendo.dataviz.min.css"/>
+    <link rel="stylesheet" href="app_components/kendo-ui/styles/kendo.dataviz.bootstrap.min.css"/>
+    <link rel="stylesheet" href="app_components/kendo-ui/styles/kendo.dataviz.mobile.min.css"/>
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <!-- endbuild -->
+  </head>
+  <body ng-app="tookitakiApp"  style="color:black">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->  
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand">Dashboard</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <!-- <li><a ui-sref="/">Home</a></li>
+            <li><a ui-sref="about">About</a></li> -->
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+
+        <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== --> 
+          <div ng-controller='DashboardCtrl'>
+              <div class="" ng-include="'views/dashboard.html'"> </div> 
+          </div> 
+    </div>
+
+
+     
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
+    <script src="app_components/kendo-ui/js/kendo.all.min.js"></script>
+    <script src="app_components/angular-kendo-ui/build/angular-kendo.min.js"></script>
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/dashboard.js"></script>
+        <script src="scripts/services/dashboard.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

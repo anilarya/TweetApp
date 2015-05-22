@@ -1,0 +1,56 @@
+{
+    "count": 85,
+    "next": null,
+    "previous": null,
+    "results": {
+        "key1": [
+            {
+                "tweet_id": 108,
+                "date": "2014-12-05",
+                "tweet": "Testing key1 tweet",
+                "username": "Anil Arya"
+            },
+            {
+                "tweet_id": 108,
+                "date": "2014-12-05",
+                "tweet": "Testing key1 tweet for more playing",
+                "username": "Anil Arya"
+            },
+            {
+                "tweet_id": 108,
+                "date": "2014-12-05",
+                "tweet": "playing key1 tweet",
+                "username": "Anil Arya"
+            }
+        ],
+        "key2": [
+            {
+                "tweet_id": 108,
+                "date": "2014-12-05",
+                "formatted_date": "Dec-05",
+                "spend": 16529.73,
+                "performance": 93,
+                "cpa": 177.739,
+                "avg_cpa": 177.739
+            },
+            {
+                "tweet_id": 108,
+                "date": "2014-12-06",
+                "formatted_date": "Dec-06",
+                "spend": 30726.45,
+                "performance": 209,
+                "cpa": 147.017,
+                "avg_cpa": 162.378
+            },
+            {
+                "tweet_id": 108,
+                "date": "2014-12-07",
+                "formatted_date": "Dec-07",
+                "spend": 38459.83,
+                "performance": 300,
+                "cpa": 128.199,
+                "avg_cpa": 150.985
+            }
+        ]
+    }
+}

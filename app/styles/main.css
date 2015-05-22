@@ -1,0 +1,38 @@
+
+@media (min-width: 768px) {
+    /* line 4, ../../app/styles/main.scss */
+
+    .container {
+        max-width: 98% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 10, ../../app/styles/main.scss */
+
+    .container {
+        max-width: 98% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* line 16, ../../app/styles/main.scss */
+
+    .container {
+        max-width: 98% !important;
+    }
+}
+
+/* line 21, ../../app/styles/main.scss */
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* columns of same height styles */
+
+/* line 26, ../../app/styles/main.scss */
+
+ 

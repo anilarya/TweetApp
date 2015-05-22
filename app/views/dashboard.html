@@ -1,0 +1,26 @@
+<br>
+<div align="center"> 
+		<input kendo-auto-complete ng-model="model.keyword" k-data-source="keywords"  style="width: 400px" />  
+	<label>
+		<button kendo-button class="k-primary" ng-click="fetchGraph(model.keyword)">Fetch</button>
+	</label>
+	
+</div>
+
+<div kendo-chart k-options="campaignsChartOptions" k-data-source="campaignsChartData" style="width:100"></div><br>
+
+
+<div>
+
+	<div class="panel  panel-primary">
+    	<div class="panel-heading">
+        	<h1 class="panel-title">Tweets</h1>
+    	</div>
+    	<div class="panel-body">
+    		<div ng-repeat="tweet in model.tweetResults">
+    			<div class="alert alert-info" role="alert"><font color="black"><b>{{$index + 1}} .{{tweet.tweet}}</b></font></div>
+			</div>
+
+    	</div>
+	</div>
+</div>
