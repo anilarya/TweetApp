@@ -3,53 +3,225 @@
     "next": null,
     "previous": null,
     "results": {
-        "key1": [
+        "CEO": [
             {
                 "tweet_id": 108,
-                "date": "2014-12-05",
-                "tweet": "Testing key1 tweet",
+                "date": "2015-05-22 11:01:00",
+                "tweet": "Nikesh Arora Will Take Over From SoftBank CEO As Chairman Of Yahoo Japan",
                 "username": "Anil Arya"
             },
             {
-                "tweet_id": 108,
-                "date": "2014-12-05",
-                "tweet": "Testing key1 tweet for more playing",
+                "tweet_id": 109,
+                "date": "2015-05-22 11:01:30",
+                "tweet": "Google CEO Will Retool Its Maps Service To Prevent Racist Listings",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 110,
+                "date": "2015-05-22 11:02:04",
+                "tweet": "Messaging App Firm Line Is Testing A $2 Per Month Music Streaming Service - by CEO Ranjan",
+                "username": "Anjani"
+            }, {
+                "tweet_id": 111,
+                "date": "2015-05-22 11:04:10",
+                "tweet": "Apple CEO Watch Bands Show Up In Apple Retail Stores",
                 "username": "Anil Arya"
             },
             {
-                "tweet_id": 108,
-                "date": "2014-12-05",
-                "tweet": "playing key1 tweet",
+                "tweet_id": 112,
+                "date": "2015-05-22 11:04:30",
+                "tweet": "Testing key1 tweet for more playing -CEO  Amit Shah",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 113,
+                "date": "2015-05-22 11:04:50",
+                "tweet": "The “Death” Of Anything Is Overrated - CEO Mindstretch",
+                "username": "Anjani"
+            },
+             {
+                "tweet_id": 114,
+                "date": "2015-05-22 11:05:00",
+                "tweet": "Testing key1 tweet tester :  CEO Anil",
                 "username": "Anil Arya"
+            },
+            {
+                "tweet_id": 115,
+                "date": "2015-05-22 11:05:10",
+                "tweet": "Tech IPO Scorecard: Shopify Skyrockets 51%, While Baozun Rises A Slimmer 4.6%",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 116,
+                "date": "2015-05-22 11:05:30",
+                "tweet": "Guildery CEO Raises $2.1 Million For Customizable, Digitally Printed Fabrics And Home Goods",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 117,
+                "date": "2015-05-22 11:05:08",
+                "tweet": "PayPal CEO Dan Schulman, “We Have A Lot Of Work Ahead Of Us”",
+                "username": "Anjani"
             }
         ],
         "key2": [
             {
-                "tweet_id": 108,
-                "date": "2014-12-05",
-                "formatted_date": "Dec-05",
-                "spend": 16529.73,
-                "performance": 93,
-                "cpa": 177.739,
-                "avg_cpa": 177.739
+                "tweet_id": 118,
+                "date": "2015-05-23 11:01:50",
+                "tweet": "Future Of NSA key2 Reform Uncertain As Senate Schedules Rare Saturday Vote",
+                "username": "Anil Arya"
             },
             {
-                "tweet_id": 108,
-                "date": "2014-12-06",
-                "formatted_date": "Dec-06",
-                "spend": 30726.45,
-                "performance": 209,
-                "cpa": 147.017,
-                "avg_cpa": 162.378
+                "tweet_id": 208,
+                "date": "2015-05-23 11:02:10",
+                "tweet": "Testing key2 tweet for more playing",
+                "username": "Amit"
             },
             {
-                "tweet_id": 108,
-                "date": "2014-12-07",
-                "formatted_date": "Dec-07",
-                "spend": 38459.83,
-                "performance": 300,
-                "cpa": 128.199,
-                "avg_cpa": 150.985
+                "tweet_id": 308,
+                "date": "2015-05-23 11:02:14",
+                "tweet": "playing key2 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 408,
+                "date": "2015-05-23 11:02:40",
+                "tweet": "Key2 is powerfull instrument to get success",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 508,
+                "date": "2015-05-23 11:02:16",
+                "tweet": "Oho !!! Are you working with key2 maker,Good luck!!!!",
+                "username": "Amol"
+            },
+            {
+                "tweet_id": 608,
+                "date": "2015-05-23 11:02:19",
+                "tweet": "Moving to California for having key2 machine",
+                "username": "sanjay"
+            },
+            {
+                "tweet_id": 708,
+                "date": "2015-05-23 11:03:10",
+                "tweet": "playing key2 tweet is not good for health",
+                "username": "komal"
+            },
+            {
+                "tweet_id": 808,
+                "date": "2015-05-23 11:03:13",
+                "tweet": "playing key2 tweet",
+                "username": "Saurabh"
+            }
+        ],
+        "key3": [
+            {
+                "tweet_id": 198,
+                "date": "2015-05-23 11:01:13",
+                "tweet": "Testing key3 tweet",
+                "username": "Anil Arya"
+            },
+            {
+                "tweet_id": 278,
+                "date": "2015-05-23 11:01:18",
+                "tweet": "Testing key3 tweet for more playing",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 368,
+                "date": "2015-05-23 11:02:13",
+                "tweet": " a playing key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 458,
+                "date": "2015-05-23 11:02:13",
+                "tweet": "b Testing key3 tweet for more playing",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 548,
+                "date": "2015-05-23 11:02:13",
+                "tweet": "c playing key3 tweet",
+                "username": "LighterMan"
+            },
+            {
+                "tweet_id": 638,
+                "date": "2015-05-23 11:03:13",
+                "tweet": "d Testing key3 tweet for more playing",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 728,
+                "date": "2015-05-23 11:07:13",
+                "tweet": "e playing key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 818,
+                "date": "2015-05-23 11:07:37",
+                "tweet": " f playing key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 298,
+                "date": "2015-05-23 11:07:13",
+                "tweet": "g Testing key3 tweet for more playing",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 398,
+                "date": "2015-05-23 11:07:16",
+                "tweet": "h playing key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 488,
+                "date": "2015-05-23 11:07:35",
+                "tweet": " iTesting key3 tweet for more playing",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 578,
+                "date": "2015-05-23 11:08:45",
+                "tweet": "jplaying key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 668,
+                "date": "2015-05-23 11:09:13",
+                "tweet": "kTesting key3 tweet for more playing",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 758,
+                "date": "2015-05-23 11:09:13",
+                "tweet": "lplaying key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 848,
+                "date": "2015-05-23 11:09:13",
+                "tweet": "mplaying key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 638,
+                "date": "2015-05-23 11:09:13",
+                "tweet": "nTesting key3 tweet for more playing",
+                "username": "Amit"
+            },
+            {
+                "tweet_id": 728,
+                "date": "2015-05-23 11:10:12",
+                "tweet": "oplaying key3 tweet",
+                "username": "Anjani"
+            },
+            {
+                "tweet_id": 818,
+                "date": "2015-05-23 11:10:18",
+                "tweet": "pplaying key3 tweet",
+                "username": "Anjani"
             }
         ]
     }

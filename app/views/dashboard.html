@@ -18,7 +18,7 @@
     	</div>
     	<div class="panel-body">
     		<div ng-repeat="tweet in model.tweetResults">
-    			<div class="alert alert-info" role="alert"><font color="black"><b>{{$index + 1}} .{{tweet.tweet}}</b></font></div>
+    			<div class="alert alert-info" role="alert"><font color="black"><b>{{$index + 1}} .{{tweet.tweet}}</b> -- by {{tweet.username}}, at  {{tweet.date}} </font></div>
 			</div>
 
     	</div>

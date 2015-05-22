@@ -11,11 +11,11 @@ angular.module('tookitakiApp')
   .controller('DashboardCtrl', function ($scope, dashboard) {
     
   	$scope.model = {
-  		keyword : "key1" 
+  		keyword : "CEO" 
   	}
  
     $scope.keywords = [
-              "key1",
+              "CEO",
               "key2",
               "key3",
               "key4"]
@@ -80,10 +80,7 @@ angular.module('tookitakiApp')
             seriesDefaults: {
                 type: "line",
                 style: "smooth"
-            },
-            overlay: {
-                            gradient: null ,
-                        },
+            }, 
               chartArea: {
               background: "white",
               height : 240,
@@ -105,13 +102,13 @@ angular.module('tookitakiApp')
            ],
             categoryAxis: {
                 field: "date",
-                type: "date",
+                type: "string",
                 majorTicks: {
                       visible: false,
                 }, 
                 labels: {
                   rotation: -25,
-                    format: "dd-MMM hh:mm",
+                    // format: "dd-MMM hh:mm",
                     // template: "#:kendo.toString(count,'dd/MM/yyyy hh:mm:ss')"
                 }, 
                 baseUnit: "fit",
@@ -140,8 +137,8 @@ angular.module('tookitakiApp')
 
       	var init = function () {
             console.log('xyCtrl.init()');
-            fetchCampaignsChartData("key1"); 
-            fetchTweets("key1");
+            fetchCampaignsChartData("CEO"); 
+            fetchTweets("CEO");
 
         }();
 
