@@ -7,7 +7,7 @@
 	
 </div>
 
-<div kendo-chart k-options="campaignsChartOptions" k-data-source="campaignsChartData" style="width:100"></div><br>
+<div kendo-chart k-options="keywordChartOptions" k-data-source="keywordChartData" style="width:100"></div><br>
 
 
 <div>
@@ -20,7 +20,6 @@
     		<div ng-repeat="tweet in model.tweetResults">
     			<div class="alert alert-info" role="alert"><font color="black"><b>{{$index + 1}} .{{tweet.tweet}}</b> -- by {{tweet.username}}, at  {{tweet.date}} </font></div>
 			</div>
-
     	</div>
 	</div>
 </div>

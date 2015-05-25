@@ -12,7 +12,7 @@ angular.module('tookitakiApp')
     // Service logic
     // ...
     return {
-      fetchCampaignsChartData: function () {  
+      fetchKeywordChartData: function () {  
                 var url = '/data/graph.json';
                 
                 var promise = $http({

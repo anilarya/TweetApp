@@ -20,7 +20,7 @@ angular.module('tookitakiApp')
               "key3",
               "key4"]
     $scope.fetchGraph = function(keyword){
-    	fetchCampaignsChartData(keyword);
+    	fetchKeywordChartData(keyword);
       fetchTweets(keyword) ;
     }
 
@@ -39,12 +39,12 @@ angular.module('tookitakiApp')
     }
                   
 
-    var fetchCampaignsChartData = function(keyword){    
-          $scope.campaignsChartData = {
+    var fetchKeywordChartData = function(keyword){    
+          $scope.keywordChartData = {
               transport: {
                 // read : '/scripts/data/reports/12.json'
                 read: function(options) {
-                    dashboard.fetchCampaignsChartData().success(function (campaignData) {  
+                    dashboard.fetchKeywordChartData().success(function (campaignData) {  
                         $scope.results = {};
                         angular.forEach(campaignData.results, function(value, key) {
 					              if (key === $scope.model.keyword) {
@@ -73,7 +73,7 @@ angular.module('tookitakiApp')
  
 
 
-        $scope.campaignsChartOptions = {
+        $scope.keywordChartOptions = {
             // legend: {
             //   position: 'custom', orientation: 'horizontal', offsetX: -50
             // },
@@ -137,7 +137,7 @@ angular.module('tookitakiApp')
 
       	var init = function () {
             console.log('xyCtrl.init()');
-            fetchCampaignsChartData("CEO"); 
+            fetchKeywordChartData("CEO"); 
             fetchTweets("CEO");
 
         }();
